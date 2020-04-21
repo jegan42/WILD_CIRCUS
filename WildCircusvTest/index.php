@@ -3,9 +3,7 @@
 ?>
 <?php include_once ('html/head.html'); ?>
 <body>
-	<section>
-		<?php include "html/nav.html"; ?>
-	</section>
+	<?php include "html/nav.html"; ?>
 	<section id="Performances">
 		<div class="divider"></div>
 		<?php include "html/performances.html"; ?>

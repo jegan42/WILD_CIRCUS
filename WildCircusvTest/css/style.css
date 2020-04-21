@@ -40,6 +40,9 @@ h1, h2{
 .text-perf{
     font-size: 30px;
 }
+.iconic {
+	font-size: 40px;
+}
 #Prices a{
     text-transform: capitalize;
 }
