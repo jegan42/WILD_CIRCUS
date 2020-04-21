@@ -37,7 +37,10 @@ h1, h2{
     color: black;
     border-color: white;
 }
-#prices a{
+.text-perf{
+    font-size: 30px;
+}
+#Prices a{
     text-transform: capitalize;
 }
 #wild-title{
