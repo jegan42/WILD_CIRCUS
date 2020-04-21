@@ -187,7 +187,19 @@ table {
     width: 100%;
 }
 footer{
+    margin-top: 50px;
     background: #000;
     color: aliceblue;
     text-align: center;
+}
+footer img{
+    width: 100%;
+    height: 50%;
+}
+footer img:hover{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
 }
