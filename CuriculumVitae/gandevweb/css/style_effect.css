@@ -1,0 +1,798 @@
+.trans-speed-01{
+	-webkit-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+
+}
+.trans-speed-03{
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+}
+.trans-speed-05{
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+}
+.trans-speed-1{
+	-webkit-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 1s ease-in-out;
+
+}
+.trans-speed-2{
+	-webkit-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 2s ease-in-out;
+
+}
+.gray-100{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+.gray-100-h:hover{
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+}
+.gray-0{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);
+}
+.gray-0-h:hover{
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);
+}
+.blur-5{
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+}
+.blur-5-h:hover{
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+}
+.blur-3{
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -o-filter: blur(3px);
+        -ms-filter: blur(3px);
+}
+.blur-3-h:hover{
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -o-filter: blur(3px);
+        -ms-filter: blur(3px);
+}
+.blur-1{
+        filter: blur(1px);
+        -webkit-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+}
+.blur-1-h:hover{
+        filter: blur(1px);
+        -webkit-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+}
+.blur-0{
+        filter: blur(0);
+        -webkit-filter: blur(0);
+        -moz-filter: blur(0);
+        -o-filter: blur(0);
+        -ms-filter: blur(0);
+}
+.blur-0-h:hover{
+        filter: blur(0);
+        -webkit-filter: blur(0);
+        -moz-filter: blur(0);
+        -o-filter: blur(0);
+        -ms-filter: blur(0);
+}
+.satur-500{
+        filter: saturate(500%);
+        -webkit-filter: saturate(500%);
+        -moz-filter: saturate(500%);
+        -o-filter: saturate(500%);
+        -ms-filter: saturate(500%);
+}
+.satur-500-h:hover{
+        filter: saturate(500%);
+        -webkit-filter: saturate(500%);
+        -moz-filter: saturate(500%);
+        -o-filter: saturate(500%);
+        -ms-filter: saturate(500%);
+}
+.satur-250{
+        filter: saturate(250%);
+        -webkit-filter: saturate(250%);
+        -moz-filter: saturate(250%);
+        -o-filter: saturate(250%);
+        -ms-filter: saturate(250%);
+}
+.satur-250-h:hover{
+        filter: saturate(250%);
+        -webkit-filter: saturate(250%);
+        -moz-filter: saturate(250%);
+        -o-filter: saturate(250%);
+        -ms-filter: saturate(250%);
+}
+.satur-100{
+        filter: saturate(100%);
+        -webkit-filter: saturate(100%);
+        -moz-filter: saturate(100%);
+        -o-filter: saturate(100%);
+        -ms-filter: saturate(100%);
+}
+.satur-100-h:hover{
+        filter: saturate(100%);
+        -webkit-filter: saturate(100%);
+        -moz-filter: saturate(100%);
+        -o-filter: saturate(100%);
+        -ms-filter: saturate(100%);
+}
+.satur-50{
+        filter: saturate(50%);
+        -webkit-filter: saturate(50%);
+        -moz-filter: saturate(50%);
+        -o-filter: saturate(50%);
+        -ms-filter: saturate(50%);
+}
+.satur-50-h:hover{
+        filter: saturate(50%);
+        -webkit-filter: saturate(50%);
+        -moz-filter: saturate(50%);
+        -o-filter: saturate(50%);
+        -ms-filter: saturate(50%);
+}
+.satur-25{
+        filter: saturate(25%);
+        -webkit-filter: saturate(25%);
+        -moz-filter: saturate(25%);
+        -o-filter: saturate(25%);
+        -ms-filter: saturate(25%);
+}
+.satur-25-h:hover{
+        filter: saturate(25%);
+        -webkit-filter: saturate(25%);
+        -moz-filter: saturate(25%);
+        -o-filter: saturate(25%);
+        -ms-filter: saturate(25%);
+}
+.satur-0{
+        filter: saturate(0%);
+        -webkit-filter: saturate(0%);
+        -moz-filter: saturate(0%);
+        -o-filter: saturate(0%);
+        -ms-filter: saturate(0%);
+}
+.satur-0-h:hover{
+        filter: saturate(0%);
+        -webkit-filter: saturate(0%);
+        -moz-filter: saturate(0%);
+        -o-filter: saturate(0%);
+        -ms-filter: saturate(0%);
+}
+.sepia-100{
+        filter: sepia(1);
+        -webkit-filter: sepia(1);
+        -moz-filter: sepia(1);
+        -o-filter: sepia(1);
+        -ms-filter: sepia(1);
+}
+.sepia-100-h:hover{
+        filter: sepia(1);
+        -webkit-filter: sepia(1);
+        -moz-filter: sepia(1);
+        -o-filter: sepia(1);
+        -ms-filter: sepia(1);
+}
+.sepia-50{
+        filter: sepia(0.5);
+        -webkit-filter: sepia(0.5);
+        -moz-filter: sepia(0.5);
+        -o-filter: sepia(0.5);
+        -ms-filter: sepia(0.5);
+}
+.sepia-50-h:hover{
+        filter: sepia(0.5);
+        -webkit-filter: sepia(0.5);
+        -moz-filter: sepia(0.5);
+        -o-filter: sepia(0.5);
+        -ms-filter: sepia(0.5);
+}
+.sepia-0{
+        filter: sepia(0);
+        -webkit-filter: sepia(0);
+        -moz-filter: sepia(0);
+        -o-filter: sepia(0);
+        -ms-filter: sepia(0);
+}
+.sepia-0-h:hover{
+        filter: sepia(0);
+        -webkit-filter: sepia(0);
+        -moz-filter: sepia(0);
+        -o-filter: sepia(0);
+        -ms-filter: sepia(0);
+}
+.invert-100{
+	
+	-webkit-filter: invert(100%);
+	-moz-filter: invert(100%);
+	-o-filter: invert(100%);
+	-ms-filter: invert(100%);
+	filter: invert(100%);
+}
+.invert-100-h:hover{
+	
+	-webkit-filter: invert(100%);
+	-moz-filter: invert(100%);
+	-o-filter: invert(100%);
+	-ms-filter: invert(100%);
+	filter: invert(100%);
+}
+.invert-75{
+	
+	-webkit-filter: invert(75%);
+	-moz-filter: invert(75%);
+	-o-filter: invert(75%);
+	-ms-filter: invert(75%);
+	filter: invert(75%);
+}
+.invert-75-h:hover{
+	
+	-webkit-filter: invert(75%);
+	-moz-filter: invert(75%);
+	-o-filter: invert(75%);
+	-ms-filter: invert(75%);
+	filter: invert(75%);
+}
+.invert-25{
+	
+	-webkit-filter: invert(25%);
+	-moz-filter: invert(25%);
+	-o-filter: invert(25%);
+	-ms-filter: invert(25%);
+	filter: invert(25%);
+}
+.invert-25-h:hover{
+	
+	-webkit-filter: invert(25%);
+	-moz-filter: invert(25%);
+	-o-filter: invert(25%);
+	-ms-filter: invert(25%);
+	filter: invert(25%);
+}
+.invert-0{
+	
+	-webkit-filter: invert(0%);
+	-moz-filter: invert(0%);
+	-o-filter: invert(0%);
+	-ms-filter: invert(0%);
+	filter: invert(0%);
+}
+.invert-0-h:hover{
+	
+	-webkit-filter: invert(0%);
+	-moz-filter: invert(0%);
+	-o-filter: invert(0%);
+	-ms-filter: invert(0%);
+	filter: invert(0%);
+}
+.brightn-100{
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        -moz-filter: brightness(100%);
+        -o-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+}
+.brightn-100-h:hover{
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        -moz-filter: brightness(100%);
+        -o-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+}
+.brightn-75{
+        filter: brightness(75%);
+        -webkit-filter: brightness(75%);
+        -moz-filter: brightness(75%);
+        -o-filter: brightness(75%);
+        -ms-filter: brightness(75%);
+}
+.brightn-75-h:hover{
+        filter: brightness(75%);
+        -webkit-filter: brightness(75%);
+        -moz-filter: brightness(75%);
+        -o-filter: brightness(75%);
+        -ms-filter: brightness(75%);
+}
+.brightn-50{
+        filter: brightness(50%);
+        -webkit-filter: brightness(50%);
+        -moz-filter: brightness(50%);
+        -o-filter: brightness(50%);
+        -ms-filter: brightness(50%);
+}
+.brightn-50-h:hover{
+        filter: brightness(50%);
+        -webkit-filter: brightness(50%);
+        -moz-filter: brightness(50%);
+        -o-filter: brightness(50%);
+        -ms-filter: brightness(50%);
+}
+.brightn-25{
+        filter: brightness(25%);
+        -webkit-filter: brightness(25%);
+        -moz-filter: brightness(25%);
+        -o-filter: brightness(25%);
+        -ms-filter: brightness(25%);
+}
+.brightn-25-h:hover{
+        filter: brightness(25%);
+        -webkit-filter: brightness(25%);
+        -moz-filter: brightness(25%);
+        -o-filter: brightness(25%);
+        -ms-filter: brightness(25%);
+}
+.brightn-0{
+        filter: brightness(0%);
+        -webkit-filter: brightness(0%);
+        -moz-filter: brightness(0%);
+        -o-filter: brightness(0%);
+        -ms-filter: brightness(0%);
+}
+.brightn-0-h:hover{
+        filter: brightness(0%);
+        -webkit-filter: brightness(0%);
+        -moz-filter: brightness(0%);
+        -o-filter: brightness(0%);
+        -ms-filter: brightness(0%);
+}
+.scale-0{
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+        -moz-transform: scale(0.0);
+        -o-transform: scale(0.0);
+        -ms-transform: scale(0.0);
+}
+.scale-0-h:hover{
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+        -moz-transform: scale(0.0);
+        -o-transform: scale(0.0);
+        -ms-transform: scale(0.0);
+}
+.scale-25{
+        transform: scale(0.25);
+        -webkit-transform: scale(0.25);
+        -moz-transform: scale(0.25);
+        -o-transform: scale(0.25);
+        -ms-transform: scale(0.25);
+}
+.scale-25-h:hover{
+        transform: scale(0.25);
+        -webkit-transform: scale(0.25);
+        -moz-transform: scale(0.25);
+        -o-transform: scale(0.25);
+        -ms-transform: scale(0.25);
+}
+.scale-50{
+        transform: scale(0.50);
+        -webkit-transform: scale(0.50);
+        -moz-transform: scale(0.50);
+        -o-transform: scale(0.50);
+        -ms-transform: scale(0.50);
+}
+.scale-50-h:hover{
+        transform: scale(0.50);
+        -webkit-transform: scale(0.50);
+        -moz-transform: scale(0.50);
+        -o-transform: scale(0.50);
+        -ms-transform: scale(0.50);
+}
+.scale-75{
+        transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        -o-transform: scale(0.75);
+        -ms-transform: scale(0.75);
+}
+.scale-75-h:hover{
+        transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        -o-transform: scale(0.75);
+        -ms-transform: scale(0.75);
+}
+.scale-100{
+        transform: scale(1.00);
+        -webkit-transform: scale(1.00);
+        -moz-transform: scale(1.00);
+        -o-transform: scale(1.00);
+        -ms-transform: scale(1.00);
+}
+.scale-100-h:hover{
+        transform: scale(1.00);
+        -webkit-transform: scale(1.00);
+        -moz-transform: scale(1.00);
+        -o-transform: scale(1.00);
+        -ms-transform: scale(1.00);
+}
+.scale-125{
+        transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        -ms-transform: scale(1.25);
+}
+.scale-125-h:hover{
+        transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        -ms-transform: scale(1.25);
+}
+.scale-150{
+        transform: scale(1.50);
+        -webkit-transform: scale(1.50);
+        -moz-transform: scale(1.50);
+        -o-transform: scale(1.50);
+        -ms-transform: scale(1.50);
+}
+.scale-150-h:hover{
+        transform: scale(1.50);
+        -webkit-transform: scale(1.50);
+        -moz-transform: scale(1.50);
+        -o-transform: scale(1.50);
+        -ms-transform: scale(1.50);
+}
+.scale-175{
+        transform: scale(1.75);
+        -webkit-transform: scale(1.75);
+        -moz-transform: scale(1.75);
+        -o-transform: scale(1.75);
+        -ms-transform: scale(1.75);
+}
+.scale-175-h:hover{
+        transform: scale(1.75);
+        -webkit-transform: scale(1.75);
+        -moz-transform: scale(1.75);
+        -o-transform: scale(1.75);
+        -ms-transform: scale(1.75);
+}
+.scale-200{
+        transform: scale(2.00);
+        -webkit-transform: scale(2.00);
+        -moz-transform: scale(2.00);
+        -o-transform: scale(2.00);
+        -ms-transform: scale(2.00);
+}
+.scale-200-h:hover{
+        transform: scale(2.00);
+        -webkit-transform: scale(2.00);
+        -moz-transform: scale(2.00);
+        -o-transform: scale(2.00);
+        -ms-transform: scale(2.00);
+}
+.rot-n-15{
+	
+	
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+.rot-n-15-h:hover{
+	
+	
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+.rot-n-30{
+	
+	
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-o-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+}
+.rot-n-30-h:hover{
+	
+	
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-o-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+}
+.rot-n-45{
+	
+	
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.rot-n-45-h:hover{
+	
+	
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.rot-n-60{
+	
+	
+	-webkit-transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	transform: rotate(-60deg);
+}
+.rot-n-60-h:hover{
+	
+	
+	-webkit-transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	transform: rotate(-60deg);
+}
+.rot-n-75{
+	
+	
+	-webkit-transform: rotate(-75deg);
+	-moz-transform: rotate(-75deg);
+	-o-transform: rotate(-75deg);
+	-ms-transform: rotate(-75deg);
+	transform: rotate(-75deg);
+}
+.rot-n-75-h:hover{
+	
+	
+	-webkit-transform: rotate(-75deg);
+	-moz-transform: rotate(-75deg);
+	-o-transform: rotate(-75deg);
+	-ms-transform: rotate(-75deg);
+	transform: rotate(-75deg);
+}
+.rot-n-90{
+	
+	
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+.rot-n-90-h:hover{
+	
+	
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+.rot-n-180{
+	
+	
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.rot-n-180-h:hover{
+	
+	
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.rot-n-360{
+	
+	
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-o-transform: rotate(-360deg);
+	-ms-transform: rotate(-360deg);
+	transform: rotate(-360deg);
+}
+.rot-n-360-h:hover{
+	
+	
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-o-transform: rotate(-360deg);
+	-ms-transform: rotate(-360deg);
+	transform: rotate(-360deg);
+}
+.rot-p-15{
+	
+	
+	-webkit-transform: rotate(15deg);
+	-moz-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+.rot-p-15-h:hover{
+	
+	
+	-webkit-transform: rotate(15deg);
+	-moz-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+.rot-p-30{
+	
+	
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+.rot-p-30-h:hover{
+	
+	
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+.rot-p-45{
+	
+	
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.rot-p-45-h:hover{
+	
+	
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.rot-p-60{
+	
+	
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+.rot-p-60-h:hover{
+	
+	
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+.rot-p-75{
+	
+	
+	-webkit-transform: rotate(75deg);
+	-moz-transform: rotate(75deg);
+	-o-transform: rotate(75deg);
+	-ms-transform: rotate(75deg);
+	transform: rotate(75deg);
+}
+.rot-p-75-h:hover{
+	
+	
+	-webkit-transform: rotate(75deg);
+	-moz-transform: rotate(75deg);
+	-o-transform: rotate(75deg);
+	-ms-transform: rotate(75deg);
+	transform: rotate(75deg);
+}
+.rot-p-90{
+	
+	
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.rot-p-90-h:hover{
+	
+	
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.rot-p-180{
+	
+	
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.rot-p-180-h:hover{
+	
+	
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.rot-p-360{
+	
+	
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.rot-p-360-h:hover{
+	
+	
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
